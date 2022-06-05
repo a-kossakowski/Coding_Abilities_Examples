@@ -10,7 +10,7 @@ input ("Press ENTER to continue.")
 #Variable for user`s question
 question = input ("What`s Your question?")
 input ("Press ENTER to continue.")
-#Here i`ve defined empty variable for a coming anserw, just so its easier to manage in code.
+#Here i`ve defined empty variable for a coming anserwer, just so its easier to manage in code.
 answer = ""
 import random
 #Numbers range from 1 - 9, because 9 isn`t inclusive.
@@ -34,14 +34,14 @@ elif random_number == 8:
   answer = "Outlook not so good."
 elif random_number == 9:
   print ("Very doubtful.")
-#Here i made a part af code for a user, that desires to test if I consider the opportunity that he wont giv me any inputs : )
+#Here i made a part af code for a user, that desires to test if I consider the opportunity that he wont give me any inputs : )
 if name == "" and question == "":
   print ("Give a name or a question.")
 elif name != "" and question == "":
   print (name, "didn`t ask question.")
 elif name == "" and question != "":
   print (question, answer)
-#Here teh code takes both user inputs, if both were given
+#Here the code takes both user inputs, if both were given
 else:
   print (name, "asks", question, "The answer from Magic 8-ball is:", answer)
 input ("Press ENTER to exit.")
